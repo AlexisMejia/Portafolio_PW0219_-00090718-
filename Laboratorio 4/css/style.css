@@ -1,0 +1,123 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(open_graph_logo.png);
+}
+
+header {
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 10%;
+  background-color: beige;
+}
+
+header .btn1, header .btn2, header .btn3 {
+  border-radius: 8px;
+}
+
+header {
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 10%;
+  background-color: beige;
+}
+
+header .btn1, header .btn2, header .btn3 {
+  border-radius: 8px;
+}
+
+.main {
+  height: 80%;
+}
+
+.main > .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .container {
+  display: -ms-grid;
+  display: grid;
+  margin: 5em auto;
+  width: 80%;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(10em, 10em);
+  grid-gap: 1em;
+  grid-auto-flow: row dense;
+  display: Flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main .container > img {
+  width: 10%;
+  height: 10%;
+}
+
+.main .container2 {
+  display: -ms-grid;
+  display: grid;
+  margin: 5em auto;
+  width: 40%;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(10em, 10em);
+  grid-gap: 1em;
+  grid-auto-flow: row dense;
+  display: Flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.main .container2 > img {
+  width: 10%;
+  height: 10%;
+}
+
+footer {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: blue;
+}
+
+footer .btn4, footer .btn5 {
+  border-radius: 8px;
+}
+/*# sourceMappingURL=style.css.map */
