@@ -1,9 +1,5 @@
 function type(arreglo){
-    let nowBooleancontbool=0;
-    let contnum=0;
-    let contobj=0;
     let nowString=0;
-
     let nowString=0;
     let nowNumero=0;
     let nowObjeto=0;
